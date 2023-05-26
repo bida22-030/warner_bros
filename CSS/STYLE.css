@@ -1,0 +1,86 @@
+header li img {
+    width: 15%;
+    height: auto;
+    float: left;
+    position: absolute;top: -10px;left: -50px;
+}
+header p{
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+body{
+    background-color:black;
+}
+p{
+    text-align: left;
+    color: red;
+    font-size:xx-large;
+}
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: inline;
+}
+ul{
+    list-style: none;
+}
+.topnav a:hover{
+    background: black;
+    color: red;
+    border: 0px;
+}
+.topnav input{
+         float: right;
+         padding-bottom: 10px;
+        padding-top: 10px;
+         
+}
+.topnav label{
+    float: right;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 10px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #da0d0d;
+    float: left;
+    width: 200px;
+    margin-top: 3%;
+    margin-right: 6%;
+    
+}
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    text-align: center;
+    color: white;
+  
+  }
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-style: italic;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    font-style: italic;
+}
+section{
+    float: left;
+    margin-right: 6%;
+}
+footer img{
+    float: right;
+}

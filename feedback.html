@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="CSS/STYLE.css">
+    <style>
+        section{
+            color: whitesmoke;
+            float: left;
+            width: 80%;
+            font-style: italic;
+            font-size: large;
+            font-weight: bolder;
+            padding-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+              <li><img src="PHOTOS/logo.jpg" alt="logo"></li>
+              <p>WARNER BROS</p>
+      <div class="topnav">
+        <label for="textsearch">Search</label>
+      <input type="search"id="textsearch">
+        <li><a href="feedback.html">FEEDBACK</a></li>
+        <li><a href="games and apps.html">GAMES AND APPS</a></li>
+        <LI><a href="tv shows.html">TV SHOWS</a></li>
+        <li><a href="movies.html">MOVIES</a></li>  
+       </div>
+          </ul>
+      </nav>
+  </header>
+      <section id="scnregister">
+        <fieldset id="fieldsetcontrols">
+            <legend>VIEWER'S FEEDBACK</legend>
+            <input type="hidden" id="customerid" name="customerid/">
+            <label for="emailadress">EMAIL ADRESS</label>
+            <input type="email" id="emailadress" name="emailadree" placeholder="email adress" required/><br/>
+
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" placeholder="password" required/><br/>
+
+            <label for="firstname">FIRSTNAME</label>
+            <input type="text" id="firstname" name="firstname" placeholder="firstname" required/><br/>
+
+            <label for="surname">SURNAME</label>
+            <input type="text" id="surname" name="surname" placeholder="surname" required/><br/>
+
+            <label for="gender">GENDER</label>
+            <select id="gender" name="gender" required onchange="alert(this.value)">
+                    <option value="none">select...</option>
+                     <option value="F">female</option>
+                     <option value="M">male</option>
+
+            <input type="text" id="comment-box" placeholder="Enter comment">
+            <button id="post">Submit</button>
+            <ul id="unordered">
+       
+            </ul>
+   
+            <script src="code.js"></script>
+            
+        </fieldset>
+    </section>
+    <section>
+        <footer class="footer">
+            <div id="divfooter" class="master">
+              <p id="pfooter">TM & © 2023 Warner Bros. Entertainment Inc. All rights reserved.</p>
+    
+              <div id="divsocialmedia">
+                  <a href="https://web.facebook.com/warnerbrosent/?_rdc=1&_rdr"><img src="PHOTOS/fb.JPG" title="Like us on Facebook"></a> 
+                  <a href="https://www.youtube.com/user/WarnerBrosPictures"><img src="PHOTOS/yt.JPG" title="Follow us on Youtube"></a> 
+                  <a href="https://twitter.com/Warnerbros/"><img src="PHOTOS/tt.JPG" title="Follow us on Twitter"></a>
+              </div>
+          </div>
+        </footer>
+        </section>
+    
+</body>
+</html>
