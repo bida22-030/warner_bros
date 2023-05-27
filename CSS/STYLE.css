@@ -46,7 +46,7 @@ ul{
     font-size: larger;
     padding-top: 10px;
 }
-div.gallery {
+/*div.gallery {
     margin: 5px;
     border: 1px solid #da0d0d;
     float: left;
@@ -59,6 +59,7 @@ div.gallery {
     width: 100%;
     height: auto;
   }
+  */
   div.desc {
     text-align: center;
     color: white;
@@ -83,4 +84,12 @@ section{
 }
 footer img{
     float: right;
+}
+.cards{
+    display: flex;
+}
+.cards .gallery img{
+    width: 280px;
+    height: 300px;
+    padding: 10px;
 }
